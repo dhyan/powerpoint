@@ -15,32 +15,10 @@
           <a:chExt cx="0" cy="0"/>
         </a:xfrm>
       </p:grpSpPr>
+
       <p:sp>
         <p:nvSpPr>
-          <p:cNvPr id="2" name="Title 1"/>
-          <p:cNvSpPr>
-            <a:spLocks noGrp="1"/>
-          </p:cNvSpPr>
-          <p:nvPr>
-            <p:ph type="title"/>
-          </p:nvPr>
-        </p:nvSpPr>
-        <p:spPr/>
-        <p:txBody>
-          <a:bodyPr/>
-          <a:lstStyle/>
-          <a:p>
-            <a:r>
-              <a:rPr dirty="0" lang="en-US" smtClean="0"/>
-              <a:t><%= title %></a:t>
-            </a:r>
-            <a:endParaRPr dirty="0" lang="en-US"/>
-          </a:p>
-        </p:txBody>
-      </p:sp>
-      <p:sp>
-        <p:nvSpPr>
-          <p:cNvPr id="3" name="Content Placeholder 2"/>
+          <p:cNvPr id="2" name="Content Placeholder 2"/>
           <p:cNvSpPr>
             <a:spLocks noGrp="1"/>
           </p:cNvSpPr>
@@ -64,6 +42,29 @@
           </a:p>
           <% end %>
         </p:txBody>
+      </p:sp>
+      <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="3" name="Footer Placeholder 5"/>
+                    <p:cNvSpPr>
+                        <a:spLocks noGrp="1"/>
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph idx="11" sz="quarter" type="ftr"/>
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr/>
+                <p:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle/>
+                    <a:p>
+                    <a:r>
+                    <a:rPr dirty="0" lang="en-US" smtClean="0"/>
+                    <a:t><%= title %> </a:t>
+                        <a:endParaRPr lang="en-US"/>
+                    </a:r>
+                    </a:p>
+                </p:txBody>
       </p:sp>
     </p:spTree>
     <p:extLst>

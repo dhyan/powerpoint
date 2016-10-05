@@ -169,15 +169,15 @@
         </p:nvSpPr>
         <p:spPr>
           <a:xfrm>
-            <a:off x="3124200" y="6356350"/>
-            <a:ext cx="2895600" cy="365125"/>
+            <a:off x="457200" y="1600200"/>
+            <a:ext cx="8229600" cy="5225963"/>
           </a:xfrm>
           <a:prstGeom prst="rect">
             <a:avLst/>
           </a:prstGeom>
         </p:spPr>
         <p:txBody>
-          <a:bodyPr anchor="ctr" bIns="45720" lIns="91440" rIns="91440" rtlCol="0" tIns="45720" vert="horz"/>
+          <a:bodyPr anchor="b" bIns="45720" lIns="91440" rIns="91440" rtlCol="0" tIns="45720" vert="horz"/>
           <a:lstStyle>
             <a:lvl1pPr algn="ctr">
               <a:defRPr sz="1200">
